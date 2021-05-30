@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>face 2</title>
+</head>
+<body>
+  <header>
+      <h1>ETIQUETAS HTML ATRIBUTOS Y VALORES</h1>
+  </header>  
+
+</body>
+</html>
