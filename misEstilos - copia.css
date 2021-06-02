@@ -1,14 +1,14 @@
 *{
-    margin: 5px;
-    border-radius: 10px;
+    margin: 3px; /*margen de los contenedores, amplia la línea de separación entre cada caja -- borde afuera*/
+    border-radius: 3px;/Bordes de los contenedores, 3px queda casi cuadrado, si aumentamos más redondo*/
 }
 header{
     background-color: rgb(236, 233, 240);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* justificar*/
     align-items: center;
 }
-.contenedor{
+.contenedor{ /* Crea una rejilla con 1 fila y 4 columnas)*/
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -26,13 +26,20 @@ footer{
     color: white;
     padding: 10px;
 }
+.justificado{
+    text-align: justify;
+}
+.centrado{
+    text-align: center;
+}
+
 .menu { /* 1era Prueba*/
     display: flex;
 }
 nav ul {/* 2da Prueba*/
-    list-style: none; 
+    list-style: none; /*???*/
     padding: 5px;
-    color: #fff; 
+    color: #fff; /*???*/
     background: black;
 }
 .menu li {
@@ -48,6 +55,8 @@ background:chocolate;
 height: 25px;
 text-decoration: none;
 }
+
+
 .dropdown li {
     display: none;
 }
