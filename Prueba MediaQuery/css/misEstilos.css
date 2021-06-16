@@ -1,0 +1,31 @@
+*{
+    margin: 5px;
+    border-radius: 3px;
+}
+header{
+    background-color: rgb(236, 233, 240);
+    display: flex;
+    /*llena todo el espacio del header*/
+    justify-content: space-between;
+    /*Alinea los elemnentos en el centro*/
+    align-items: center;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+/*Si el máximo es 600px el fondo se coloca de color marrón del contenedor,
+si es mayor el color no es marrón*/
+@media (max-width: 600px) {
+    .contenedor {
+        background-color: brown;
+    }
+    header{ /*primero headerxx para verlo en horizontal, luego para que funcione header */
+        /*Coloca el eje del header en vertical*/
+        flex-direction: column;/* coloca los elementos verticales. */
+        /*Alinea los items al ppio (the left) of the header*/
+        align-items: flex-start;
+        
+    }
+}
